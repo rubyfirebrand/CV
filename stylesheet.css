@@ -1,0 +1,88 @@
+
+
+
+#Hero {
+    background-color: #151715;
+    height: 65vh;
+    color: #F3F4ED;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.prof-img {
+border-radius: 50%;
+}
+
+
+.call-to-action-button {
+    margin-left: 11rem;
+    margin-top: 3rem;
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+
+/* I have different classes for the button since I had to specifically call out the bootstrap classes to make the font size and button colors change. Using my own button class wouldn't work. */
+.btn {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.btn-outline-success {
+   
+      --bs-btn-color: #F3F4ED;
+    
+      --bs-btn-border-color: #8AA166;
+    
+      --bs-btn-hover-color: #F3F4ED;
+    
+      --bs-btn-hover-bg: #8AA166;
+    
+      --bs-btn-hover-border-color: #8AA166;
+    
+      --bs-btn-focus-shadow-rgb: 25,135,84;
+    
+      --bs-btn-active-color: #F3F4ED;
+    
+      --bs-btn-active-bg: #8AA166;
+    
+      --bs-btn-active-border-color: #8AA166;
+    
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    
+      --bs-btn-disabled-color: #F3F4ED;
+    
+      --bs-btn-disabled-bg: transparent;
+    
+      --bs-btn-disabled-border-color: #8AA166;
+
+}
+
+.svg-arrow {
+    transform: rotate(.25turn);
+}
+
+
+/* heading and subheading are different classes because they require differen positions and font styles. Trust me, I already tried combinging the classes and it didn't work. If we're going to have separate classes, might as well put the common things together I supposed. */
+h1 {
+    position: relative;
+    margin-bottom: 3rem;
+    z-index: 1;
+    font-weight: 700;
+    
+}
+
+.hero-subheading {
+    position: relative;
+    z-index: 1;
+    font-weight: 600;
+    /* font-style: oblique; */
+    padding-top: 3rem;
+    font-family: 'Cormorant Garamond', serif;
+}
+.svg-hero-diamond {
+    position: absolute;
+    left: 13rem;
+    top: 10rem;
+    z-index: 0;
+}
+
