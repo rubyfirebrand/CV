@@ -86,3 +86,20 @@ h1 {
     z-index: 0;
 }
 
+#About_Me {
+    background-color: #3e4a1b;
+    height: 65vh;
+    color: #F3F4ED;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    border-width: .3rem;
+    color: #8AA166;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-family: 'Cormorant Garamond', serif;
+}
+
