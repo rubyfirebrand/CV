@@ -88,7 +88,6 @@ h1 {
 
 #About_Me {
     background-color: #3e4a1b;
-    height: 65vh;
     color: #F3F4ED;
     font-family: 'Montserrat', sans-serif;
 }
@@ -101,5 +100,39 @@ hr {
 
 h4 {
     font-family: 'Cormorant Garamond', serif;
+}
+
+/* I have the font size called out in a class .credit-footer and through .nav-link since I needed to change bootstrap's class of nav-link. In that respect, .credit-footer changes the font-size of "collage photos by" and .credit-footer changes the link sizes. */
+
+.credit_footer {
+   font-size: small;
+    color: #8AA166;
+    font-style: italic;
+}
+
+/* .nav and .nav-link are noted here to change bootstrap's button css. */
+
+.nav {
+    --bs-nav-link-hover-color: #F3F4ED;
+}
+
+
+.nav-link {
+    padding: 0 .5rem;
+    margin-left: 0rem;
+    color: #8AA166;
+    font-size: small;
+}
+
+/* This just makes it so that the footer credits aren't right against the edge. */
+
+.footer_content_placement {
+    margin-left: .5rem;
+}
+/* I had to call out Bootstrap's width of the column here so that there wasn't a weird gap between "collage photos by" and the links. I couldn't find any other way to get around that (margin, padding, gaps, etc) */
+@media (min-width:768px) {
+.col-md-1 {
+    width:6.5%;
+}
 }
 
