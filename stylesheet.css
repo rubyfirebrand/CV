@@ -136,3 +136,36 @@ h4 {
 }
 }
 
+#Skills {
+    background-color: #151715;
+    height: 70vh;
+    color: #F3F4ED;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.col-border {
+    border: .5rem solid #8AA166;
+    border-radius: 10%;
+    height: 60vh;
+    width: max-content;
+}
+
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    
+}
+h5 {
+    padding: 1rem 1rem .5rem;
+}
+    
+.skills-svg {
+    margin-top: 2rem;
+}
+
+.skills-subheading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 0rem;
+}
