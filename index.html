@@ -40,19 +40,21 @@
                 width="300px" />
             </div>
             <div class="call-to-action-button">
-              <button type="button" class="btn btn-outline-success btn-lg">
-                <svg
-                  class="svg-arrow"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="1.5em"
-                  viewBox="0 0 384 512"
-                  fill="#F3F4ED">
-                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                  <path
-                    d="M32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c53 0 96-43 96-96l0-306.7 73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3 160 416c0 17.7-14.3 32-32 32l-96 0z" />
-                </svg>
-                &NonBreakingSpace;Work with me today
-              </button>
+              <a href="#Contact_Page">
+                <button type="button" class="btn btn-outline-success btn-lg">
+                  <svg
+                    class="svg-arrow"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="1.5em"
+                    viewBox="0 0 384 512"
+                    fill="#F3F4ED">
+                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                      d="M32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c53 0 96-43 96-96l0-306.7 73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3 160 416c0 17.7-14.3 32-32 32l-96 0z" />
+                  </svg>
+                  &NonBreakingSpace;Work with me today
+                </button>
+              </a>
             </div>
           </div>
           <div class="col-lg-6">
@@ -245,5 +247,65 @@
         </div>
       </div>
     </section>
+    <section id="Projects">
+      <!-- The section is for Projects. I don't have any visually pleasing projects to show off, so I'm waiting to get this one done.  -->
+    </section>
+    <section id="Contact_Page">
+      <form
+        action="mailto:ms.rubydoxey@gmail.com"
+        method="get"
+        enctype="application/x-www-form-urlencoded">
+        <div class="container p-5">
+          <h2 class="py-3 contact_me_header">
+            Reach out to me
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="2rem"
+              viewBox="0 0 448 512"
+              fill="#151715">
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
+              <path
+                d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM218 271.7L64.2 172.4C66 156.4 79.5 144 96 144H352c16.5 0 30 12.4 31.8 28.4L230 271.7c-1.8 1.2-3.9 1.8-6 1.8s-4.2-.6-6-1.8zm29.4 26.9L384 210.4V336c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V210.4l136.6 88.2c7 4.5 15.1 6.9 23.4 6.9s16.4-2.4 23.4-6.9z" />
+            </svg>
+          </h2>
+
+          <div class="col">
+            <div class="mb-3">
+              <!-- <label for="Name" class="form-label">Name</label> -->
+              <label for="Name">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="Name"
+                placeholder="Your name here" />
+            </div>
+            <div class="mb-3">
+              <label for="Email">Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="Email"
+                placeholder="name@example.com" />
+            </div>
+            <div>
+              <label for="Your Message">Your Message</label>
+              <textarea
+                class="form-control"
+                placeholder="Leave a comment here"
+                id="Your Message"></textarea>
+            </div>
+            <div class="mt-4">
+              <button
+                type="submit"
+                class="btn btn-outline-success btn-lg"
+                value="send">
+                Submit
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
   </body>
 </html>
+<!-- I need to figure out how to do mail:to and have form info get put into the email -->
