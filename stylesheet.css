@@ -3,7 +3,7 @@
 
 #Hero {
     background-color: #151715;
-    height: 65vh;
+    height: 70vh;
     color: #F3F4ED;
     font-family: 'Montserrat', sans-serif;
 }
@@ -170,4 +170,44 @@ h5 {
     font-size: 20px;
     margin: 0rem 0rem 1.8rem;
 }
+
+#Contact_Me {
+    background-color: #3e4a1b;
+    height: 65vh;
+    font-family: 'Cormorant Garamond', serif;
+    
+}
+
+
+.contact_me_header {
+    color: #F3F4ED;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.form-control {
+    display:block;
+    width:50%;
+    padding:.375rem .75rem;
+    font-size:1.3rem;
+    font-weight:600;
+    line-height:1.5;
+    color:#151715;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    background-color:#F3F4ED;
+    background-clip:padding-box;
+    border:.2rem solid #8AA166;
+    border-radius:var(--bs-border-radius);
+    transition:#8AA166 .15s ease-in-out,box-shadow .15s ease-in-out
+  }
+
+
+ label {
+    color: #F3F4ED;
+    font-size: 1.4rem;
+    font-weight: 500;
+ }
+
 
