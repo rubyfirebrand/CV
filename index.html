@@ -251,16 +251,17 @@
       <!-- The section is for Projects. I don't have any visually pleasing projects to show off, so I'm waiting to get this one done.  -->
     </section>
     <section id="Contact_Page">
+      <!-- Note: This current method does not actually allow info from form to update email. That seems to be a Java or PhP benefit. This is the most we can do with current knowledge. I would like to eventually add a Thank You redirect Page once I have that knowledge.  -->
       <form
         action="mailto:ms.rubydoxey@gmail.com"
-        method="get"
+        method="post"
         enctype="application/x-www-form-urlencoded">
         <div class="container p-5">
           <h2 class="py-3 contact_me_header">
             Reach out to me
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              height="2rem"
+              height="2.4rem"
               viewBox="0 0 448 512"
               fill="#151715">
               <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.-->
@@ -308,4 +309,3 @@
     </section>
   </body>
 </html>
-<!-- I need to figure out how to do mail:to and have form info get put into the email -->
