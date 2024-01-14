@@ -81,8 +81,8 @@ h1 {
 }
 .svg-hero-diamond {
     position: absolute;
-    left: 13rem;
-    top: 10rem;
+    left: 14rem;
+    top: 9rem;
     z-index: 0;
 }
 
@@ -210,4 +210,49 @@ h5 {
     font-weight: 500;
  }
 
+ /* Responsive Design Coding */
 
+  /* Styles for Mobile Devices and Ipads/Tablets Since the Issues Seem to be Similar */
+  
+  
+  @media (min-width: 768px) and (max-width: 1280px) {
+    
+    
+    .mx-md-auto  {
+    margin-left: 12rem !important;
+}
+ 
+    
+    h1 {
+        position: relative;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 6rem;
+        z-index: 1;
+        font-weight: 700;
+        
+    }
+    
+    .hero-subheading {
+        position: relative;
+        z-index: 1;
+        font-weight: 600;
+        /* font-style: oblique; */
+        padding-top: 3rem;
+        margin-left: 6rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .svg-hero-diamond {
+        position: absolute;
+        left: 8rem;
+        top: 27.5rem;
+        z-index: 0;
+}
+    .call-to-action-button {
+    margin-left: 14rem;
+    margin-top: 25rem;
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    z-index: 0;
+}
+  }
