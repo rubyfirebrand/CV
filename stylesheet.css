@@ -138,7 +138,7 @@ h4 {
 
 #Skills {
     background-color: #151715;
-    height: 85vh;
+    /* height: 85vh; */
     color: #F3F4ED;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -173,7 +173,7 @@ h5 {
 
 #Contact_Me {
     background-color: #3e4a1b;
-    height: 65vh;
+    height: 60vh;
     font-family: 'Cormorant Garamond', serif;
     
 }
@@ -263,3 +263,4 @@ h5 {
 }
 
   }
+
