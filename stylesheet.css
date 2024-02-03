@@ -217,14 +217,11 @@ h5 {
 
  /* Responsive Design Coding */
 
-  /* Styles for Mobile Devices and Ipads/Tablets Since the Issues Seem to be Similar */
+  /* Styles for Mobile Devices and Ipads/Tablets Since the Issues Seem to be Similar. Note: Height changes just don't seem to work for mobile devices */
   
   
-  @media (min-width: 768px) and (max-width: 1280px) {
+  @media (min-width: 319px) and (max-width: 640px) {
     
-    #Hero {
-        height: 55vh;
-    }
     .mx-md-auto  {
     margin-left: 12rem !important;
 }
@@ -244,7 +241,6 @@ h5 {
         position: relative;
         z-index: 1;
         font-weight: 600;
-        /* font-style: oblique; */
         padding-top: 3rem;
         margin-left: 6rem;
         font-family: 'Cormorant Garamond', serif;
@@ -269,9 +265,89 @@ h5 {
     font-size: small;
 }
 
-#Contact_Me {
-    height: 40vh;
-}
-
   }
 
+/* Ipads and Tablets */
+
+  @media (min-width: 768px) and (max-width: 1280px) {
+
+  .mx-md-auto  {
+    margin-left: 12rem !important;
+}
+ 
+    
+    h1 {
+        position: relative;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 6rem;
+        z-index: 1;
+        font-weight: 700;
+        
+    }
+    
+    .hero-subheading {
+        position: relative;
+        z-index: 1;
+        font-weight: 600;
+        padding-top: 3rem;
+        margin-left: 6rem;
+        font-family: 'Cormorant Garamond', serif;
+    }
+    .svg-hero-diamond {
+        position: absolute;
+        left: 8rem;
+        top: 27.5rem;
+        z-index: 0;
+}
+    .call-to-action-button {
+    margin-left: 14rem;
+    margin-top: 22rem;
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    z-index: 0;
+}
+    .nav-link {
+    padding: 0 .5rem;
+    margin-left: 5rem;
+    color: #8AA166;
+    font-size: small;
+}
+
+/* Laptops */
+
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px)  { 
+    
+    #Hero {
+        height: 80vh;
+    }
+
+    .svg-hero-diamond {
+        position: absolute;
+        left: 4rem;
+        top: 7.5rem;
+        z-index: 0;
+}
+    .call-to-action-button {
+    margin-left: 14rem;
+    margin-top: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    z-index: 0;
+}
+    .nav-link {
+    padding: 0rem;
+    margin-left: 1rem;
+    color: #8AA166;
+    font-size: small;
+}
+
+#Contact_Me {
+    height: 88vh;
+    
+}
+
+}
