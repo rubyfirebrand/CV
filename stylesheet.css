@@ -325,26 +325,6 @@ h5 {
         height: 80vh;
     }
 
-    
-
-    /* h1 {
-        position: relative;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        margin-left: 6rem;
-        z-index: 1;
-        font-weight: 700;
-        
-    }
-    
-    .hero-subheading {
-        position: relative;
-        z-index: 1;
-        font-weight: 600;
-        padding-top: 3rem;
-        margin-left: 6rem;
-        font-family: 'Cormorant Garamond', serif;
-    } */
     .svg-hero-diamond {
         position: absolute;
         left: 4rem;
