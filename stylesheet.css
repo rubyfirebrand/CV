@@ -217,7 +217,7 @@ h5 {
 
  /* Responsive Design Coding */
 
-  /* Styles for Mobile Devices and Ipads/Tablets Since the Issues Seem to be Similar */
+  /* Styles for Mobile Devices and Ipads/Tablets Since the Issues Seem to be Similar. Note: Height changes just don't seem to work for mobile devices */
   
   
   @media (min-width: 319px) and (max-width: 640px) {
